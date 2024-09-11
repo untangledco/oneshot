@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		401BCA9D2C912B4A00ACCC54 /* oneshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCA9C2C912B4A00ACCC54 /* oneshotApp.swift */; };
 		401BCA9F2C912B4A00ACCC54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCA9E2C912B4A00ACCC54 /* ContentView.swift */; };
-		401BCAA12C912B4A00ACCC54 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCAA02C912B4A00ACCC54 /* Item.swift */; };
 		401BCAA32C912B4C00ACCC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401BCAA22C912B4C00ACCC54 /* Assets.xcassets */; };
 		401BCAA72C912B4C00ACCC54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401BCAA62C912B4C00ACCC54 /* Preview Assets.xcassets */; };
-		401BCAB12C912B4C00ACCC54 /* oneshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCAB02C912B4C00ACCC54 /* oneshotTests.swift */; };
 		401BCABB2C912B4C00ACCC54 /* oneshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCABA2C912B4C00ACCC54 /* oneshotUITests.swift */; };
 		401BCABD2C912B4C00ACCC54 /* oneshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCABC2C912B4C00ACCC54 /* oneshotUITestsLaunchTests.swift */; };
+		401BCACA2C912EF200ACCC54 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401BCAC92C912EF200ACCC54 /* OpenAI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +35,16 @@
 
 /* Begin PBXFileReference section */
 		401BCA992C912B4A00ACCC54 /* oneshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		401BCA9C2C912B4A00ACCC54 /* oneshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneshotApp.swift; sourceTree = "<group>"; };
+		401BCA9C2C912B4A00ACCC54 /* oneshotApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneshotApp.swift; sourceTree = "<group>"; usesTabs = 0; };
 		401BCA9E2C912B4A00ACCC54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		401BCAA02C912B4A00ACCC54 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		401BCAA22C912B4C00ACCC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401BCAA42C912B4C00ACCC54 /* oneshot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oneshot.entitlements; sourceTree = "<group>"; };
 		401BCAA62C912B4C00ACCC54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		401BCAAC2C912B4C00ACCC54 /* oneshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		401BCAB02C912B4C00ACCC54 /* oneshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneshotTests.swift; sourceTree = "<group>"; };
 		401BCAB62C912B4C00ACCC54 /* oneshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401BCABA2C912B4C00ACCC54 /* oneshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneshotUITests.swift; sourceTree = "<group>"; };
 		401BCABC2C912B4C00ACCC54 /* oneshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		401BCAC92C912EF200ACCC54 /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +95,11 @@
 		401BCA9B2C912B4A00ACCC54 /* oneshot */ = {
 			isa = PBXGroup;
 			children = (
-				401BCA9C2C912B4A00ACCC54 /* oneshotApp.swift */,
-				401BCA9E2C912B4A00ACCC54 /* ContentView.swift */,
-				401BCAA02C912B4A00ACCC54 /* Item.swift */,
 				401BCAA22C912B4C00ACCC54 /* Assets.xcassets */,
+				401BCA9E2C912B4A00ACCC54 /* ContentView.swift */,
 				401BCAA42C912B4C00ACCC54 /* oneshot.entitlements */,
+				401BCA9C2C912B4A00ACCC54 /* oneshotApp.swift */,
+				401BCAC92C912EF200ACCC54 /* OpenAI.swift */,
 				401BCAA52C912B4C00ACCC54 /* Preview Content */,
 			);
 			path = oneshot;
@@ -118,7 +116,6 @@
 		401BCAAF2C912B4C00ACCC54 /* oneshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				401BCAB02C912B4C00ACCC54 /* oneshotTests.swift */,
 			);
 			path = oneshotTests;
 			sourceTree = "<group>";
@@ -263,8 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				401BCA9F2C912B4A00ACCC54 /* ContentView.swift in Sources */,
-				401BCAA12C912B4A00ACCC54 /* Item.swift in Sources */,
 				401BCA9D2C912B4A00ACCC54 /* oneshotApp.swift in Sources */,
+				401BCACA2C912EF200ACCC54 /* OpenAI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401BCAB12C912B4C00ACCC54 /* oneshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
