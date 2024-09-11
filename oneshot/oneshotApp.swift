@@ -1,10 +1,3 @@
-//
-//  oneshotApp.swift
-//  oneshot
-//
-//  Created by Oliver Lowe on 11/9/2024.
-//
-
 import SwiftUI
 import SwiftData
 
